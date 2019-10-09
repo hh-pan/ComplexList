@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.StaggeredGridLayoutManager;
  * Desc:
  */
 public class Utils {
-    
+
     /**
      * 显示一行
      *
