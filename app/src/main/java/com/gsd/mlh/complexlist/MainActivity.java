@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         load.type = 5;
         dataList.add(load);
     }
-    
+
     private void getMore() {
         //模拟数据请求
         new Handler().postDelayed(new Runnable() {
