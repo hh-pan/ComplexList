@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.gsd.mlh.complexlist.widget.BottomBarLayout
+        android:id="@+id/bbl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.gsd.mlh.complexlist.widget.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/tab_home_normal"
+            app:iconSelected="@drawable/tab_home_selected"
+            app:itemMarginTop="2dp"
+            app:itemText="@string/home"
+            app:itemTextSize="10sp"
+            app:openTouchBg="true"
+            app:textColorSelected="@color/red"
+            app:touchDrawable="@drawable/selector_tab_select_bg"/>
+
+        <com.gsd.mlh.complexlist.widget.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/tab_account_normal"
+            app:iconSelected="@drawable/tab_account_select"
+            app:itemMarginTop="2dp"
+            app:itemText="@string/mine"
+            app:itemTextSize="10sp"
+            app:openTouchBg="true"
+            app:textColorSelected="@color/red"
+            app:touchDrawable="@drawable/selector_tab_select_bg"/>
+
+    </com.gsd.mlh.complexlist.widget.BottomBarLayout>
+
+</LinearLayout>
